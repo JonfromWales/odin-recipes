@@ -1,3 +1,49 @@
-h1 {
+* {
+    line-height: 1.5;
+}
+
+body {
+    font-family: Verdana, 'Times New Roman', Times, serif;
+    background-color: #c2ecfb;
     text-align: center;
+}
+
+.boxed {
+    border: 1px solid black;
+    padding: 30px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: rgb(141, 14, 95);
+    background-color: rgb(230, 224, 169);
+}
+
+h2 {
+    text-align: left;
+    margin-left: 50px;
+}
+
+img {
+    height: 500px;
+    width: auto;
+    border-radius: 10px;
+}
+
+p {
+    font-style: italic;
+}
+
+ul {
+    list-style: none;
+    background-color: hwb(34 86% 8%);
+    font-weight: bolder;
+}
+
+ol {
+    background-color: hwb(34 86% 8%);
+    text-align: left;
+    font-weight: bold;
 }
